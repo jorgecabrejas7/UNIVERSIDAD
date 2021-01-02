@@ -24,8 +24,8 @@ void setup()
 {
   Serial.begin(9600);
   //LDR
-  pinMode(ldrPin, INPUT);
-  pinMode(ledLuz, OUTPUT);
+    pinMode(ldrPin, INPUT);
+    pinMode(ledLuz, OUTPUT);
   //BUZZER
   pinMode (buzzerPin, OUTPUT);
   //TEMPERATURA
