@@ -13,7 +13,6 @@ public class BedService{
 
 	@POST
     @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
     public Response registerBed(BedModel newBed){
         //Check if the id is already  in use so the bed has already been registered into de system
         //if(newBed.getId() in bd){
@@ -22,6 +21,7 @@ public class BedService{
 
         
         //Potential change of UserModel user to int userId
+		newBed = new BedModel();
         if(newBed.getUser() == null){
             System.out.println("NO USER HAS BEEN SET FOR THIS BED YET - BED: " + newBed.getBedId());
 

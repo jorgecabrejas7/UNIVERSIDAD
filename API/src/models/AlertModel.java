@@ -5,9 +5,9 @@ import java.sql.Date;
 import java.sql.Time;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class AlertModel implements Serializable {
 	
 	private static final long serialVersionUID = 1L;

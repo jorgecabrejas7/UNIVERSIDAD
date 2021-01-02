@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.sql.Date;
 import java.sql.Time;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
 
 
 
 //La cama es el broker?
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class DataModel implements Serializable{
 
 	private static final long serialVersionUID = 1L;

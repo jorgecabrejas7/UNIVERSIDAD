@@ -16,14 +16,14 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import com.fasterxml.jackson.core.annotations.JsonIgnoreProperties;
 
 
 
 
 
 //La cama es el broker?
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class BedModel implements Serializable{
 
 	private static final long serialVersionUID = 1L;
