@@ -30,4 +30,4 @@ Deployment instructions
     
     $ heroku ps:scale web=1
 
-- Rest API will be working under the url herokuUrl/abyss-layers-0.0.1-SNAPSHOT/routeToService
+- Rest API will be working under the url herokuAppUrl/abyss-layers-0.0.1-SNAPSHOT/routeToService
